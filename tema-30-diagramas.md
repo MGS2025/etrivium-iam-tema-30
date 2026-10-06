@@ -277,7 +277,7 @@
   <text x="349" y="40" text-anchor="middle" class="c7">ITERATIVAS</text>
   <rect x="396" y="34" width="80" height="26" rx="4" fill="#888"/><text x="436" y="51" text-anchor="middle" class="t7">RAÍZ « . »</text>
   <rect x="486" y="34" width="80" height="26" rx="4" fill="#888"/><text x="526" y="51" text-anchor="middle" class="t7">TLD « .es »</text>
-  <rect x="576" y="34" width="84" height="26" rx="4" fill="#e89822"/><text x="618" y="51" text-anchor="middle" class="t7">AUTORITATIVO</text>
+  <rect x="576" y="34" width="84" height="26" rx="4" fill="#e89822"/><text x="618" y="51" text-anchor="middle" class="t7" style="font-size:9px">AUTORITATIVO</text>
   <line x1="478" y1="47" x2="484" y2="47" stroke="#0055a0" stroke-width="1.5"/><line x1="568" y1="47" x2="574" y2="47" stroke="#0055a0" stroke-width="1.5"/>
   <text x="528" y="74" text-anchor="middle" class="d7">cada uno responde «pregunta a este otro»</text>
   <rect x="188" y="86" width="116" height="24" rx="4" fill="#fdf3e3"/><text x="246" y="102" text-anchor="middle" class="d7">Guarda en caché el TTL</text>
@@ -419,14 +419,14 @@
   <rect x="344" y="158" width="156" height="56" rx="4" fill="#888"/><text x="422" y="176" text-anchor="middle" class="ta">VLAN DE INVITADOS</text><text x="422" y="192" text-anchor="middle" class="sa">No se autentica</text><text x="422" y="205" text-anchor="middle" class="sa">solo salida a internet</text>
   <rect x="506" y="158" width="154" height="56" rx="4" fill="#d13c3c"/><text x="583" y="176" text-anchor="middle" class="ta">RECHAZADO</text><text x="583" y="192" text-anchor="middle" class="sa">Puerto cerrado</text><text x="583" y="205" text-anchor="middle" class="sa">y evento registrado</text>
   <text x="24" y="238" class="ka">MECANISMOS DE RESPALDO Y REFUERZO</text>
-  <rect x="20" y="244" width="212" height="44" rx="4" fill="#eef3f8"/><text x="126" y="260" text-anchor="middle" class="ka">MAB — autenticación por MAC</text><text x="126" y="275" text-anchor="middle" class="da">Para lo que no habla 802.1X.</text><text x="126" y="286" text-anchor="middle" class="da">Débil: una MAC se falsifica</text>
-  <rect x="238" y="244" width="212" height="44" rx="4" fill="#eef3f8"/><text x="344" y="260" text-anchor="middle" class="ka">MODO DE SUPERVISIÓN</text><text x="344" y="275" text-anchor="middle" class="da">Evalúa y registra, pero NO aplica.</text><text x="344" y="286" text-anchor="middle" class="da">Fase obligada antes de cortar</text>
-  <rect x="456" y="244" width="204" height="44" rx="4" fill="#e8f4ee"/><text x="558" y="260" text-anchor="middle" class="ka">RADIUS CoA — RFC 5176</text><text x="558" y="275" text-anchor="middle" class="da">Cambia o corta una sesión YA activa:</text><text x="558" y="286" text-anchor="middle" class="da">control continuo, no puntual</text>
-  <rect x="20" y="296" width="640" height="24" rx="4" fill="#fbeaea" stroke="#d13c3c" stroke-width="1.2"/>
-  <text x="340" y="312" text-anchor="middle" class="da">Riesgo operativo: si cae el servidor RADIUS, la sede se queda sin red. Redunda y define el comportamiento de contingencia</text>
-  <rect x="90" y="326" width="500" height="20" rx="4" fill="none" stroke="#0055a0" stroke-width="1.5"/>
-  <text x="340" y="340" text-anchor="middle" class="ka">Refuerzos de nivel 2: seguridad de puerto · inspección DHCP · inspección ARP dinámica</text>
-  <text x="670" y="358" text-anchor="end" class="na">[Fuente: IEEE8021X; RFC2865; RFC3748]</text>
+  <rect x="20" y="244" width="212" height="48" rx="4" fill="#eef3f8"/><text x="126" y="260" text-anchor="middle" class="ka">MAB — autenticación por MAC</text><text x="126" y="274" text-anchor="middle" class="da">Para lo que no habla 802.1X.</text><text x="126" y="287" text-anchor="middle" class="da">Débil: una MAC se falsifica</text>
+  <rect x="238" y="244" width="212" height="48" rx="4" fill="#eef3f8"/><text x="344" y="260" text-anchor="middle" class="ka">MODO DE SUPERVISIÓN</text><text x="344" y="274" text-anchor="middle" class="da">Evalúa y registra, pero NO aplica.</text><text x="344" y="287" text-anchor="middle" class="da">Fase obligada antes de cortar</text>
+  <rect x="456" y="244" width="204" height="48" rx="4" fill="#e8f4ee"/><text x="558" y="260" text-anchor="middle" class="ka">RADIUS CoA — RFC 5176</text><text x="558" y="274" text-anchor="middle" class="da">Cambia o corta una sesión YA activa:</text><text x="558" y="287" text-anchor="middle" class="da">control continuo, no puntual</text>
+  <rect x="20" y="300" width="640" height="24" rx="4" fill="#fbeaea" stroke="#d13c3c" stroke-width="1.2"/>
+  <text x="340" y="316" text-anchor="middle" class="da">Riesgo operativo: si cae el servidor RADIUS, la sede se queda sin red. Redunda y define el comportamiento de contingencia</text>
+  <rect x="90" y="330" width="500" height="20" rx="4" fill="none" stroke="#0055a0" stroke-width="1.5"/>
+  <text x="340" y="344" text-anchor="middle" class="ka">Refuerzos de nivel 2: seguridad de puerto · inspección DHCP · inspección ARP dinámica</text>
+  <text x="670" y="360" text-anchor="end" class="na">[Fuente: IEEE8021X; RFC2865; RFC3748]</text>
 </svg>
 ```
 
@@ -543,11 +543,11 @@
   <text x="502" y="86" text-anchor="middle" class="sd">Viaja en TODO paquete IP</text>
   <text x="502" y="102" text-anchor="middle" class="sd">SOBREVIVE de extremo a extremo</text>
   <text x="24" y="132" class="kd">VALORES DE DSCP QUE HAY QUE RECONOCER</text>
-  <rect x="20" y="138" width="124" height="44" rx="4" fill="#d13c3c"/><text x="82" y="155" text-anchor="middle" class="vd">EF = 46</text><text x="82" y="169" text-anchor="middle" class="sd">VOZ</text><text x="82" y="179" text-anchor="middle" class="sd">cola de prioridad</text>
-  <rect x="150" y="138" width="124" height="44" rx="4" fill="#0055a0"/><text x="212" y="155" text-anchor="middle" class="vd">AF41 = 34</text><text x="212" y="169" text-anchor="middle" class="sd">VÍDEO INTERACTIVO</text><text x="212" y="179" text-anchor="middle" class="sd">clase garantizada</text>
-  <rect x="280" y="138" width="124" height="44" rx="4" fill="#2d8659"/><text x="342" y="155" text-anchor="middle" class="vd">CS3 = 24</text><text x="342" y="169" text-anchor="middle" class="sd">SEÑALIZACIÓN</text><text x="342" y="179" text-anchor="middle" class="sd">poco caudal, crítica</text>
-  <rect x="410" y="138" width="124" height="44" rx="4" fill="#e89822"/><text x="472" y="155" text-anchor="middle" class="vd">AF21 = 18</text><text x="472" y="169" text-anchor="middle" class="sd">TRANSACCIONAL</text><text x="472" y="179" text-anchor="middle" class="sd">aplicaciones de gestión</text>
-  <rect x="540" y="138" width="120" height="44" rx="4" fill="#888"/><text x="600" y="155" text-anchor="middle" class="vd">BE = 0</text><text x="600" y="169" text-anchor="middle" class="sd">MEJOR ESFUERZO</text><text x="600" y="179" text-anchor="middle" class="sd">copias, actualizaciones</text>
+  <rect x="20" y="138" width="124" height="44" rx="4" fill="#d13c3c"/><text x="82" y="153" text-anchor="middle" class="vd">EF = 46</text><text x="82" y="166" text-anchor="middle" class="sd">VOZ</text><text x="82" y="177" text-anchor="middle" class="sd">cola de prioridad</text>
+  <rect x="150" y="138" width="124" height="44" rx="4" fill="#0055a0"/><text x="212" y="153" text-anchor="middle" class="vd">AF41 = 34</text><text x="212" y="166" text-anchor="middle" class="sd">VÍDEO INTERACTIVO</text><text x="212" y="177" text-anchor="middle" class="sd">clase garantizada</text>
+  <rect x="280" y="138" width="124" height="44" rx="4" fill="#2d8659"/><text x="342" y="153" text-anchor="middle" class="vd">CS3 = 24</text><text x="342" y="166" text-anchor="middle" class="sd">SEÑALIZACIÓN</text><text x="342" y="177" text-anchor="middle" class="sd">poco caudal, crítica</text>
+  <rect x="410" y="138" width="124" height="44" rx="4" fill="#e89822"/><text x="472" y="153" text-anchor="middle" class="vd">AF21 = 18</text><text x="472" y="166" text-anchor="middle" class="sd">TRANSACCIONAL</text><text x="472" y="177" text-anchor="middle" class="sd">aplicaciones de gestión</text>
+  <rect x="540" y="138" width="120" height="44" rx="4" fill="#888"/><text x="600" y="153" text-anchor="middle" class="vd">BE = 0</text><text x="600" y="166" text-anchor="middle" class="sd">MEJOR ESFUERZO</text><text x="600" y="177" text-anchor="middle" class="sd">copias, actualizaciones</text>
   <rect x="20" y="190" width="640" height="24" rx="4" fill="#eef3f8"/>
   <text x="340" y="206" text-anchor="middle" class="dd">Clases AFxy: x = clase (1 a 4) · y = precedencia de descarte (1 a 3; a mayor y, antes se descarta)</text>
   <text x="24" y="236" class="kd">LAS CINCO OPERACIONES, EN ORDEN</text>
@@ -597,12 +597,12 @@
   <rect x="344" y="192" width="316" height="42" rx="4" fill="#e8f4ee"/>
   <text x="502" y="209" text-anchor="middle" class="de">Vigilancia CONTINUA e investigación retrospectiva</text><text x="502" y="225" text-anchor="middle" class="de">Sensible, pero SIN contenido</text>
   <text x="24" y="256" class="ke">CÓMO SE CAPTURA</text>
-  <rect x="20" y="262" width="156" height="42" rx="4" fill="#0055a0"/><text x="98" y="278" text-anchor="middle" class="te">SPAN</text><text x="98" y="292" text-anchor="middle" class="se">espejo por configuración</text><text x="98" y="302" text-anchor="middle" class="se">descarta si se satura</text>
-  <rect x="182" y="262" width="156" height="42" rx="4" fill="#2d8659"/><text x="260" y="278" text-anchor="middle" class="te">TAP</text><text x="260" y="292" text-anchor="middle" class="se">derivación física pasiva</text><text x="260" y="302" text-anchor="middle" class="se">fiel al 100 %</text>
+  <rect x="20" y="262" width="156" height="42" rx="4" fill="#0055a0"/><text x="98" y="276" text-anchor="middle" class="te">SPAN</text><text x="98" y="289" text-anchor="middle" class="se">espejo por configuración</text><text x="98" y="300" text-anchor="middle" class="se">descarta si se satura</text>
+  <rect x="182" y="262" width="156" height="42" rx="4" fill="#2d8659"/><text x="260" y="276" text-anchor="middle" class="te">TAP</text><text x="260" y="289" text-anchor="middle" class="se">derivación física pasiva</text><text x="260" y="300" text-anchor="middle" class="se">fiel al 100 %</text>
   <text x="348" y="256" class="ke">CÓMO SE EXPORTAN LOS FLUJOS</text>
-  <rect x="344" y="262" width="102" height="42" rx="4" fill="#e89822"/><text x="395" y="278" text-anchor="middle" class="te">NetFlow v9</text><text x="395" y="292" text-anchor="middle" class="se">Cisco · RFC 3954</text><text x="395" y="302" text-anchor="middle" class="se">flujo completo</text>
-  <rect x="452" y="262" width="102" height="42" rx="4" fill="#0055a0"/><text x="503" y="278" text-anchor="middle" class="te">IPFIX</text><text x="503" y="292" text-anchor="middle" class="se">IETF · RFC 7011</text><text x="503" y="302" text-anchor="middle" class="se">la norma abierta</text>
-  <rect x="560" y="262" width="100" height="42" rx="4" fill="#2d8659"/><text x="610" y="278" text-anchor="middle" class="te">sFlow</text><text x="610" y="292" text-anchor="middle" class="se">RFC 3176</text><text x="610" y="302" text-anchor="middle" class="se">por MUESTREO</text>
+  <rect x="344" y="262" width="102" height="42" rx="4" fill="#e89822"/><text x="395" y="276" text-anchor="middle" class="te">NetFlow v9</text><text x="395" y="289" text-anchor="middle" class="se">Cisco · RFC 3954</text><text x="395" y="300" text-anchor="middle" class="se">flujo completo</text>
+  <rect x="452" y="262" width="102" height="42" rx="4" fill="#0055a0"/><text x="503" y="276" text-anchor="middle" class="te">IPFIX</text><text x="503" y="289" text-anchor="middle" class="se">IETF · RFC 7011</text><text x="503" y="300" text-anchor="middle" class="se">la norma abierta</text>
+  <rect x="560" y="262" width="100" height="42" rx="4" fill="#2d8659"/><text x="610" y="276" text-anchor="middle" class="te">sFlow</text><text x="610" y="289" text-anchor="middle" class="se">RFC 3176</text><text x="610" y="300" text-anchor="middle" class="se">por MUESTREO</text>
   <rect x="20" y="312" width="640" height="24" rx="4" fill="none" stroke="#0055a0" stroke-width="1.5"/>
   <text x="340" y="328" text-anchor="middle" class="ke">Flujo = quíntupla: IP y puerto de origen + IP y puerto de destino + protocolo</text>
   <text x="670" y="347" text-anchor="end" class="ne">[Fuente: RFC3954; RFC7011; SFLOW; WIRESHARK]</text>
@@ -636,7 +636,7 @@
   <rect x="20" y="168" width="200" height="30" rx="4" fill="#2d8659"/><text x="120" y="181" text-anchor="middle" class="tf">§2 · Gestión de usuarios</text><text x="120" y="193" text-anchor="middle" class="sf">directorio, GPO, RBAC</text>
   <text x="228" y="188" class="df">→</text>
   <rect x="244" y="168" width="416" height="30" rx="4" fill="#e8f4ee" stroke="#2d8659" stroke-width="1.2"/>
-  <text x="452" y="188" text-anchor="middle" class="df">op.acc.1 a op.acc.6 · op.acc.3 segregación de funciones · op.exp.2 y op.exp.3 configuración</text>
+  <text x="452" y="188" text-anchor="middle" class="df" style="font-size:8.4px">op.acc.1 a op.acc.6 · op.acc.3 segregación de funciones · op.exp.2 y op.exp.3 configuración</text>
   <rect x="20" y="204" width="200" height="30" rx="4" fill="#0055a0"/><text x="120" y="217" text-anchor="middle" class="tf">§3 · Gestión de dispositivos</text><text x="120" y="229" text-anchor="middle" class="sf">inventario, parches, admisión</text>
   <text x="228" y="224" class="df">→</text>
   <rect x="244" y="204" width="416" height="30" rx="4" fill="#eef3f8" stroke="#0055a0" stroke-width="1.2"/>
@@ -644,7 +644,7 @@
   <rect x="20" y="240" width="200" height="30" rx="4" fill="#d13c3c"/><text x="120" y="253" text-anchor="middle" class="tf">§4 · Monitorización y tráfico</text><text x="120" y="265" text-anchor="middle" class="sf">métricas, flujos, registros</text>
   <text x="228" y="260" class="df">→</text>
   <rect x="244" y="240" width="416" height="30" rx="4" fill="#fbeaea" stroke="#d13c3c" stroke-width="1.2"/>
-  <text x="452" y="260" text-anchor="middle" class="df">op.mon.1 detección de intrusión · op.mon.2 métricas · op.mon.3 vigilancia · op.exp.8 registro</text>
+  <text x="452" y="260" text-anchor="middle" class="df" style="font-size:8.4px">op.mon.1 detección de intrusión · op.mon.2 métricas · op.mon.3 vigilancia · op.exp.8 registro</text>
   <rect x="20" y="280" width="640" height="24" rx="4" fill="#fdf3e3" stroke="#e89822" stroke-width="1.2"/>
   <text x="340" y="296" text-anchor="middle" class="df">Categoría MEDIA y ALTA: auditoría al menos BIENAL · Categoría BÁSICA: autoevaluación</text>
   <rect x="20" y="312" width="640" height="24" rx="4" fill="none" stroke="#0055a0" stroke-width="1.5"/>
