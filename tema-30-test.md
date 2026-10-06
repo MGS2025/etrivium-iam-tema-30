@@ -1031,7 +1031,7 @@ C) La severidad no es numérica, sino una etiqueta de texto sin orden definido
 
 <details><summary>Respuesta</summary>
 
-**Correcta: B) A menor número, mayor gravedad: el 0 corresponde a emergencia y el 7 a depuración** Es lo contrario de lo que sugiere la intuición y por eso se pregunta con frecuencia. Un dispositivo configurado en severidad 7 hacia un servidor central puede inundarlo, de modo que el nivel debe elegirse conscientemente.
+**Correcta: B) A menor número, mayor gravedad: el 0 corresponde a emergencia y el 7 a depuración** Es lo contrario de lo que sugiere la intuición. Un dispositivo configurado en severidad 7 hacia un servidor central puede inundarlo, de modo que el nivel debe elegirse conscientemente.
 
 *Referencia: §4.2.3 [RFC5424]*
 </details>

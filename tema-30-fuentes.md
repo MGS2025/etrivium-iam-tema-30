@@ -75,7 +75,7 @@
 | `[WSUS]` | Microsoft. *Windows Server Update Services*; en Linux, réplicas locales de repositorios (`apt-mirror`, `dnf reposync`) y **Uyuni**/**Landscape**. Distribución controlada de actualizaciones. |
 | `[PXE]` | Especificación *Preboot Execution Environment* y **UEFI HTTP Boot**; herramientas de despliegue por red (**FOG**, **MDT**, **Clonezilla**, **Autopilot**). |
 | `[IPAM]` | Herramientas de gestión de direccionamiento (**IPAM**) e inventario de red: **phpIPAM**, **NetBox**, **NIPAP**. |
-| `[PROPIETARIOS]` | Protocolos propietarios y su equivalente abierto, citados por pares para evitar la confusión más habitual del examen: **VTP** frente a **MVRP**; **PAgP** frente a **LACP**; **CDP** frente a **LLDP**; **HSRP/GLBP** frente a **VRRP**; tecnologías de apilado y de chasis virtual frente a la agregación normalizada. |
+| `[PROPIETARIOS]` | Protocolos propietarios y su equivalente abierto, citados por pares para evitar la confusión más habitual: **VTP** frente a **MVRP**; **PAgP** frente a **LACP**; **CDP** frente a **LLDP**; **HSRP/GLBP** frente a **VRRP**; tecnologías de apilado y de chasis virtual frente a la agregación normalizada. |
 
 ## Tier 3 — Marco administrativo y organizativo (contexto)
 

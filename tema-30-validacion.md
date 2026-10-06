@@ -40,7 +40,7 @@
 ## 2. Contenido teórico
 
 - [ ] El nivel de profundidad (4 secciones, 8 subsecciones, 26 epígrafes, ~21.400 palabras) es adecuado para C1 (¿hay que ampliar o recortar alguna sección?)
-- [ ] **Mapeo del esqueleto oficial**: el esqueleto de `Test_Prompting/temas agosto/30.md` usa **cinco niveles de encabezado** (`##` a `#####`), y aquí se ha mapeado a **tres niveles numerados** (N / N.M / N.M.O) promoviendo cada `#####` al rango de su `####` hermano. **A validar por María/Jesús**: ¿es aceptable esa reducción, o se prefiere conservar los cinco niveles del esqueleto?
+- [ ] **Mapeo del esqueleto oficial**: el esqueleto de partida usa **cinco niveles de encabezado** (`##` a `#####`), y aquí se ha mapeado a **tres niveles numerados** (N / N.M / N.M.O) promoviendo cada `#####` al rango de su `####` hermano. **A validar por María/Jesús**: ¿es aceptable esa reducción, o se prefiere conservar los cinco niveles del esqueleto?
 - [ ] El **equilibrio entre las cuatro materias del enunciado** (redes locales · usuarios · dispositivos · tráfico) es proporcionado, teniendo en cuenta que el enunciado oficial las enumera con el mismo rango
 - [ ] Las **distinciones nucleares** quedan nítidas y sin ambigüedad: dominio de colisión / de difusión; puerto de acceso / troncal; VLAN nativa / etiquetada; STP / RSTP / MSTP; árbol de expansión / agregación de enlaces; estructura lógica / física del directorio; bosque / dominio / unidad organizativa; permiso / derecho; autenticación / autorización / contabilidad; dentro de banda / fuera de banda; PCP / DSCP; vigilancia / modelado; paquete / flujo; NetFlow / IPFIX / sFlow
 - [ ] Los **puertos y números de norma** citados son correctos: 22, 23, 53, 67/68, 88, 123, 161/162, 389/636, 443, 514, 546/547, 830, 853, 1812/1813, 2055, 6343, 6514; y 802.1Q, 802.1D, 802.1w, 802.1s, 802.1AX, 802.1X, 802.1AB, 802.1AE, 802.1AR
@@ -100,7 +100,6 @@
 
 _(Espacio para anotaciones de María, Ana y la revisión IAM.)_
 
-- **Estado de la serie**: con este tema, el bloque técnico queda **completo de T11 a T30 sin huecos**. El siguiente esqueleto disponible en `Test_Prompting/temas agosto/` es el **T31** (cloud).
 - **Decisión a validar — mapeo del esqueleto**: el esqueleto oficial de este tema tiene cinco niveles de encabezado y se ha reducido a tres niveles numerados (ver §2 de esta lista). Es la misma cuestión que se planteó en el T27 y conviene resolverla de forma uniforme para toda la serie.
 - **Frontera con el Tema 37**: es la más delicada de este tema, porque ambos hablan de redes locales. El criterio aplicado aquí es que el **T37 describe** (tipología, técnicas de transmisión, métodos de acceso, dispositivos de interconexión) y el **T30 administra**. Pendiente de confirmación por el IAM.
 - **Sin fragmentos de código**: decisión de generación coherente con T26, T28 y T29. Este tema no compara lenguajes ni plataformas de desarrollo, sino protocolos, arquitecturas y procesos; lo memorizable son **puertos, números de norma, valores de campo y matrices**, no sintaxis. Se ha priorizado en su lugar la densidad de **tablas comparativas**. Pendiente confirmar si María o el IAM prefieren incluir algunos ejemplos de configuración de electrónica de red, con la advertencia de que atarían el tema a un fabricante.

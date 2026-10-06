@@ -86,7 +86,7 @@
   <rect x="20" y="196" width="316" height="34" rx="4" fill="#eef3f8"/><text x="178" y="211" text-anchor="middle" class="d2">Con la CONMUTACIÓN: en la práctica</text><text x="178" y="225" text-anchor="middle" class="d2">ya está eliminado en redes modernas</text>
   <rect x="344" y="196" width="316" height="34" rx="4" fill="#e8f4ee"/><text x="502" y="211" text-anchor="middle" class="d2">SEGMENTANDO en VLAN: es lo único</text><text x="502" y="225" text-anchor="middle" class="d2">que reduce el dominio de difusión</text>
   <rect x="20" y="242" width="640" height="26" rx="4" fill="#fbeaea" stroke="#d13c3c" stroke-width="1.2"/>
-  <text x="340" y="259" text-anchor="middle" class="d2">Error clásico de examen: «segmentar en VLAN reduce las colisiones». NO: reduce la DIFUSIÓN</text>
+  <text x="340" y="259" text-anchor="middle" class="d2">Error clásico: «segmentar en VLAN reduce las colisiones». NO: reduce la DIFUSIÓN</text>
   <rect x="20" y="276" width="640" height="26" rx="4" fill="none" stroke="#0055a0" stroke-width="1.5"/>
   <text x="340" y="293" text-anchor="middle" class="k2">Dos VLAN nunca se comunican en nivel 2: hace falta encaminar (nivel 3)</text>
   <text x="670" y="315" text-anchor="end" class="n2">[Fuente: IEEE8023; IEEE8021Q]</text>
@@ -311,7 +311,7 @@
 ## D8 · Directorio: estructura lógica frente a estructura física
 
 **Sección**: §2.1.1 — Estructura lógica y física de servicios de directorio
-**Propósito**: Separar las dos estructuras superpuestas del directorio y fijar qué delimita cada pieza, que es lo que se pregunta literalmente.
+**Propósito**: Separar las dos estructuras superpuestas del directorio y fijar qué delimita cada pieza.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 360" role="img" aria-label="Comparación entre la estructura lógica de un servicio de directorio, formada por bosque, árbol, dominio y unidad organizativa, y su estructura física, formada por controladores de dominio, sitios y enlaces de sitio; se indica qué delimita cada pieza: el bosque es el límite de seguridad y de esquema, el dominio el de replicación y política de cuentas, y la unidad organizativa no es un límite de seguridad">
@@ -354,13 +354,13 @@
 ## D9 · AGDLP y el orden de aplicación de directivas L-S-D-UO
 
 **Sección**: §2.1.3 y §2.2.2 — Objetos y grupos · Directivas de grupo
-**Propósito**: Reunir en un solo diagrama las dos reglas más preguntadas de la gestión de usuarios: cómo se encadenan los grupos para conceder permisos y en qué orden ganan las directivas.
+**Propósito**: Reunir en un solo diagrama las dos reglas clave de la gestión de usuarios: cómo se encadenan los grupos para conceder permisos y en qué orden ganan las directivas.
 
 ```svg
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 340" role="img" aria-label="Doble esquema: en la parte superior, el anidamiento AGDLP en el que las cuentas se meten en grupos globales, estos en grupos locales de dominio y a estos se les conceden los permisos sobre el recurso; en la parte inferior, el orden de aplicación de las directivas de grupo local, sitio, dominio y unidad organizativa, en el que gana la última aplicada salvo que una superior esté marcada como forzada">
   <style>.t9{font:700 10px system-ui,sans-serif;fill:#fff}.s9{font:8.5px system-ui,sans-serif;fill:#fff}.d9{font:9px system-ui,sans-serif;fill:#333}.h9{font:700 13px system-ui,sans-serif;fill:#0055a0}.k9{font:700 9.5px system-ui,sans-serif;fill:#0055a0}.n9{font:8.5px system-ui,sans-serif;fill:#666}</style>
   <defs><marker id="a9" markerWidth="9" markerHeight="9" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7 z" fill="#0055a0"/></marker></defs>
-  <text x="340" y="20" text-anchor="middle" class="h9">Las dos reglas más preguntadas de la gestión de usuarios</text>
+  <text x="340" y="20" text-anchor="middle" class="h9">Las dos reglas clave de la gestión de usuarios</text>
   <text x="24" y="42" class="k9">1 · ANIDAMIENTO DE GRUPOS — AGDLP</text>
   <rect x="20" y="48" width="140" height="42" rx="4" fill="#0055a0"/><text x="90" y="64" text-anchor="middle" class="t9">A · CUENTA</text><text x="90" y="78" text-anchor="middle" class="s9">Ana Torres</text>
   <line x1="164" y1="69" x2="192" y2="69" stroke="#0055a0" stroke-width="2" marker-end="url(#a9)"/>
